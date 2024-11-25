@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maleesha Dissanayaka - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container">
+            <h1>Maleesha Dissanayaka</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">My Services</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="home">
+        <div class="header-content">
+            <h2>Hi, I'm <span>Maleesha Dissanayaka</span></h2>
+            <p>Graphic designer and website developer</p> <br>
+            <a href="#services" class="btn">Explore My Services</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="profile.jpg" alt="Maleesha Dissanayaka">
+            <div>
+                <p>I’m a passionate freelancer with expertise in web design, graphic design, and coding. With years of experience delivering high-quality projects, I ensure that every client’s vision is brought to life with creativity and precision. Currently pursuing a degree in Data Science & AI at Sri Lanka Technological Campus (SLTC), I integrate technology and artistry into every project</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Services</h2>
+        <div class="services-container">
+            <div class="service-card" data-service="web">
+                <h3>Web Design & Development</h3>
+                <p>Crafting user-friendly websites tailored to your business needs</p>
+            </div>
+            <div class="service-card" data-service="uiux">
+                <h3>Graphic Design</h3>
+                <p>Designing logos, flyers, and social media graphics to elevate your brand identity.</p>
+            </div>
+            <div class="service-card" data-service="ethical">
+                <h3>Custom Coding Solutions</h3>
+                <p>Providing tailored programming solutions for personal and business projects.</p>
+            </div>
+        </div>
+        <p id="selected-service">Select a service to see details.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <div class="form-section">
+                <h3>Get In Touch</h3>
+                <form id="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="tel" placeholder="Your Phone" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Contact Details -->
+            <div class="details-section">
+                <h3>My Contact Details</h3>
+                <p><strong>Email:</strong> <a href="mailto:maleeshaviraj25d@gmail.com">maleeshaviraj25d@gmail.com</a></p>
+                <p><strong>Phone:</strong> 0701514261</p>
+                <p><strong>Address:</strong> Colombo 05,Sri Lanka</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 @ Maleesha Dissanayaka | Designed with passion</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
